@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <script src="static/assets/js/echarts.min.js"></script>
-
   <title>豆瓣Top250数据分析</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -63,24 +62,15 @@
     </div>
   </header><!-- End Header -->
 
-  <main id="main">
-
     <!-- ======= Our Team Section ======= -->
     <section id="team" class="team">
       <div class="container">
 
         <div class="section-title">
-          <h2>豆瓣电影Top250评分分布图</h2>
+          <h2>豆瓣电影Top250评分分析图</h2>
         </div>
-      </div>
-    </section><!-- End Our Team Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section class="counts section-bg">
-      <div class="container">
-    <!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
     <div id="main" style="width: 600px;height:400px;"></div>
-              <script type="text/javascript">
+    <script type="text/javascript">
         // 基于准备好的dom，初始化echarts实例
         var myChart = echarts.init(document.getElementById('main'));
 
@@ -108,9 +98,16 @@
         myChart.setOption(option);
     </script>
       </div>
-    </section><!-- End Counts Section -->
+    </section><!-- End Our Team Section -->
 
-  </main><!-- End #main -->
+    <!-- ======= Counts Section ======= -->
+    <section class="counts section-bg">
+      <div class="container">
+
+
+
+      </div>
+    </section><!-- End Counts Section -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
